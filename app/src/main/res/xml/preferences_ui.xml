@@ -1,0 +1,77 @@
+<!--
+  ~ Aurora Store
+  ~  Copyright (C) 2021, Rahul Kumar Patel <whyorean@gmail.com>
+  ~
+  ~  Aurora Store is free software: you can redistribute it and/or modify
+  ~  it under the terms of the GNU General Public License as published by
+  ~  the Free Software Foundation, either version 2 of the License, or
+  ~  (at your option) any later version.
+  ~
+  ~  Aurora Store is distributed in the hope that it will be useful,
+  ~  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  ~  GNU General Public License for more details.
+  ~
+  ~  You should have received a copy of the GNU General Public License
+  ~  along with Aurora Store.  If not, see <http://www.gnu.org/licenses/>.
+  ~
+  -->
+
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.aurora.store.view.custom.preference.AuroraListPreference
+        app:defaultValue="0"
+        app:entries="@array/pref_themes"
+        app:entryValues="@array/pref_themes_values"
+        app:iconSpaceReserved="false"
+        app:key="PREFERENCE_THEME_TYPE"
+        app:title="@string/pref_ui_theme_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <com.aurora.store.view.custom.preference.AuroraListPreference
+        app:defaultValue="1"
+        app:entries="@array/pref_accent"
+        app:entryValues="@array/pref_accent_values"
+        app:iconSpaceReserved="false"
+        app:key="PREFERENCE_THEME_ACCENT"
+        app:title="@string/pref_ui_accent_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <Preference
+        app:iconSpaceReserved="false"
+        app:key="PREFERENCE_APP_LANGUAGE"
+        app:title="@string/app_language" />
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"
+        app:title="@string/pref_ui_layout" />
+
+    <com.aurora.store.view.custom.preference.AuroraListPreference
+        app:defaultValue="0"
+        app:entries="@array/pref_default_tab"
+        app:entryValues="@array/pref_default_tab_values"
+        app:iconSpaceReserved="false"
+        app:key="PREFERENCE_DEFAULT_SELECTED_TAB"
+        app:title="@string/pref_ui_layout_tab"
+        app:useSimpleSummaryProvider="true" />
+
+    <PreferenceCategory
+        app:iconSpaceReserved="false"
+        app:singleLineTitle="false"
+        app:title="@string/pref_common_extra" />
+
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:iconSpaceReserved="false"
+        app:key="PREFERENCE_FOR_YOU"
+        app:summary="@string/pref_ui_no_for_you_desc"
+        app:title="@string/pref_ui_no_for_you" />
+
+    <SwitchPreferenceCompat
+        app:defaultValue="true"
+        app:iconSpaceReserved="false"
+        app:key="PREFERENCE_SIMILAR"
+        app:summary="@string/pref_ui_similar_apps_desc"
+        app:title="@string/pref_ui_similar_apps" />
+</androidx.preference.PreferenceScreen>
