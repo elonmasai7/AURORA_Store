@@ -32,25 +32,7 @@ with or without Google Play Services or MicroG.
   - Review Add/Update
 - Token Dispenser Server is not super reliable, downtimes are expected.  
 
-## Downloads
 
-Please only download the latest stable releases from one of these sources:
-
-- [F-Droid](https://f-droid.org/en/packages/com.aurora.store/) (Recommended)
-- [AuroraOSS](https://auroraoss.com/AuroraStore/)
-- [GitLab Releases](https://gitlab.com/AuroraOSS/AuroraStore/-/releases)
-
-## Certificate Fingerprints
-
-- SHA1: 94:42:75:D7:59:8B:C0:3E:48:85:06:06:42:25:A7:19:90:A2:22:02
-- SHA256: 4C:62:61:57:AD:02:BD:A3:40:1A:72:63:55:5F:68:A7:96:63:FC:3E:13:A4:D4:36:9A:12:57:09:41:AA:28:0F
-
-## Support
-
-Aurora Store v4 is still in on-going development! Bugs are to be expected! Any bug reports are appreciated.
-Please visit [Aurora Wiki](https://gitlab.com/AuroraOSS/AuroraStore/-/wikis/home) for FAQs.
-
-- [Telegram](https://t.me/AuroraSupport)
 - [XDA Developers](https://forum.xda-developers.com/t/app-5-0-aurora-store-open-source-google-play-client.3739733/)
 
 ## Screenshots
