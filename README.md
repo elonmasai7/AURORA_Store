@@ -4,7 +4,6 @@
 allows users to download, update, and search for apps like the Play Store. It works perfectly fine
 with or without Google Play Services or MicroG.
 
-[<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="60">](https://f-droid.org/en/packages/com.aurora.store/)
 
 ## Features
 
