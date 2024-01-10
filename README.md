@@ -40,7 +40,7 @@ with or without Google Play Services or MicroG.
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-01.png" height="400">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-03.png" height="400">
 <img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-07.png" height="400">
-<img src="fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-08.png" height="400">
+
 
 
 ## Project references
