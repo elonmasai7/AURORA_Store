@@ -1,0 +1,43 @@
+import android.app.AlertDialog
+import android.content.Context
+import android.widget.EditText
+import android.widget.LinearLayout
+
+fun showAddAppDialog(context: Context) {
+    val layout = LinearLayout(context)
+    layout.orientation = LinearLayout.VERTICAL
+
+    val editTextAppName = EditText(context)
+    editTextAppName.hint = "App Name"
+    layout.addView(editTextAppName)
+
+    val editTextPackageName = EditText(context)
+    editTextPackageName.hint = "Package Name"
+    layout.addView(editTextPackageName)
+
+    val editTextDescription = EditText(context)
+    editTextDescription.hint = "Description"
+    layout.addView(editTextDescription)
+
+    val alertDialog = AlertDialog.Builder(context)
+        .setTitle("Add Your App")
+        .setView(layout)
+        .setPositiveButton("Submit") { _, _ ->
+            val appName = editTextAppName.text.toString()
+            val packageName = editTextPackageName.text.toString()
+            val description = editTextDescription.text.toString()
+
+            // Here you would handle the submission, like sending this information to your server or storing it locally
+            // Example: You can implement a REST API to send this data to your backend server
+            // Then your server can process this data and add the app to the Play Store
+
+            // For simplicity, let's just log the details for demonstration
+            println("App Name: $appName, Package Name: $packageName, Description: $description")
+        }
+        .setNegativeButton("Cancel") { dialog, _ ->
+            dialog.dismiss()
+        }
+        .create()
+
+    alertDialog.show()
+}
