@@ -31,8 +31,6 @@ You are to hold yourself responsible by installing **Aurora Store** from other s
 
 The following sources are the only official links we provide:
 
-- **F-Droid:** https://f-droid.org/en/packages/com.aurora.store/
-- **AuroraOSS Website:** https://auroraoss.com/downloads.php
 ### 3. Links in Aurora Store
 
 **AuroraOSS**, makes no claim or representation regarding, and accepts no responsibility for third party websites accessible by hyperlink from the Service or websites linking to the Service. When you leave the Service, you should be aware that these Terms and our policies no longer govern.
