@@ -51,4 +51,4 @@ Aurora Store is based on these projects
 - [AppCrawler](https://github.com/Akdeniz/google-play-crawler)
 - [MY resume](https://github.com/elonmasai7/aurora_store)
 - [Raccoon](https://github.com/onyxbits/raccoon4)
-- [SAI](https://github.com/Aefyr/SAI)
+- [SAI](https://github.com/elonmasai7)
